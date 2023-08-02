@@ -1,9 +1,35 @@
 ---
-title: Hello World
+title: 测试 HelloWorld
+date: 20230731 21:50:00
+author: xu0w0xu
+tag: test
+categories: test
+banner_img: /img/bg/93364704_明星_mks_0.webp
+comments: true
+math: true
+mermaid: true
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
 ## Quick Start
+
+### 测试测试、
+
+#### 测试公式
+
+$$
+E=mc^2
+$$
+
+#### 测试流程图
+
+{% mermaid %}
+pie
+    title 为什么总是宅在家里？
+    "喜欢宅" : 15
+    "天气太热或太冷" : 20
+    "穷" : 500
+{% endmermaid %}
 
 ### Create a new post
 
