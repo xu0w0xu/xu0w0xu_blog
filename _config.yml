@@ -99,14 +99,20 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: butterfly
 
-# Deployment
+# Deployment(发布)
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
   repo: root@81.68.85.185:/home/git/blog.git
   branch: master
 
+# Search(全站搜索)
 search:
 path: search.xml
 field: post
 content: true
+
+# KaTex(数学公式)
+markdown:
+    plugins:
+      - '@renbaoshuo/markdown-it-katex'
